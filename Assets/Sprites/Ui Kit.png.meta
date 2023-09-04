@@ -120,10 +120,10 @@ TextureImporter:
       name: GameTitle
       rect:
         serializedVersion: 2
-        x: 165
-        y: 860
-        width: 350
-        height: 80
+        x: 707
+        y: 3479
+        width: 1314
+        height: 246
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: SettingBig
       rect:
         serializedVersion: 2
-        x: 570
-        y: 722
-        width: 265
-        height: 225
+        x: 2282
+        y: 2895
+        width: 1053
+        height: 894
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,13 +162,13 @@ TextureImporter:
       name: LevelUnlock
       rect:
         serializedVersion: 2
-        x: 529
-        y: 596
-        width: 105
-        height: 105
+        x: 2124
+        y: 2401
+        width: 397
+        height: 391
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 35, y: 35, z: 35, w: 35}
+      border: {x: 135, y: 135, z: 135, w: 135}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -183,10 +183,10 @@ TextureImporter:
       name: LevelLock
       rect:
         serializedVersion: 2
-        x: 677
-        y: 596
-        width: 105
-        height: 105
+        x: 2719
+        y: 2400
+        width: 391
+        height: 393
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: LevelButton
       rect:
         serializedVersion: 2
-        x: 537
-        y: 494
-        width: 85
-        height: 85
+        x: 2157
+        y: 1989
+        width: 326
+        height: 322
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: ReplayButton
       rect:
         serializedVersion: 2
-        x: 641
-        y: 492
-        width: 85
-        height: 85
+        x: 2576
+        y: 1979
+        width: 322
+        height: 323
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: BackButton
       rect:
         serializedVersion: 2
-        x: 754
-        y: 493
-        width: 85
-        height: 85
+        x: 3022
+        y: 1978
+        width: 324
+        height: 324
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +267,10 @@ TextureImporter:
       name: PlayButton
       rect:
         serializedVersion: 2
-        x: 251
-        y: 301
-        width: 180
-        height: 180
+        x: 1014
+        y: 1208
+        width: 703
+        height: 712
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +288,10 @@ TextureImporter:
       name: PolicyButton
       rect:
         serializedVersion: 2
-        x: 176
-        y: 194
-        width: 105
-        height: 105
+        x: 714
+        y: 787
+        width: 399
+        height: 401
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: SettingButton
       rect:
         serializedVersion: 2
-        x: 401
-        y: 194
-        width: 105
-        height: 105
+        x: 1608
+        y: 786
+        width: 408
+        height: 402
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,13 +330,13 @@ TextureImporter:
       name: MainIcon
       rect:
         serializedVersion: 2
-        x: 196
-        y: 518
-        width: 295
-        height: 297
+        x: 783
+        y: 2073
+        width: 1181
+        height: 1180
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 32, z: 47, w: 35}
+      border: {x: 146, y: 150, z: 144, w: 141}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -351,10 +351,10 @@ TextureImporter:
       name: Background
       rect:
         serializedVersion: 2
-        x: 1451
-        y: 134
-        width: 360
-        height: 802
+        x: 5806
+        y: 539
+        width: 1434
+        height: 3204
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,13 +372,13 @@ TextureImporter:
       name: SliderHandle
       rect:
         serializedVersion: 2
-        x: 836
-        y: 600
-        width: 66
-        height: 66
+        x: 3343
+        y: 2401
+        width: 266
+        height: 264
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 20, y: 19, z: 19, w: 19}
+      border: {x: 50, y: 50, z: 50, w: 50}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -393,13 +393,13 @@ TextureImporter:
       name: SliderFill
       rect:
         serializedVersion: 2
-        x: 926
-        y: 604
-        width: 128
-        height: 58
+        x: 3702
+        y: 2417
+        width: 515
+        height: 232
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 16, y: 16, z: 18, w: 16}
+      border: {x: 100, y: 100, z: 100, w: 100}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -414,13 +414,13 @@ TextureImporter:
       name: SliderBackground
       rect:
         serializedVersion: 2
-        x: 836
-        y: 684
-        width: 136
-        height: 66
+        x: 3349
+        y: 2730
+        width: 536
+        height: 270
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 21, y: 20, z: 22, w: 20}
+      border: {x: 120, y: 100, z: 120, w: 100}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -435,13 +435,13 @@ TextureImporter:
       name: PlayZone
       rect:
         serializedVersion: 2
-        x: 1085
-        y: 641
-        width: 295
-        height: 295
+        x: 4338
+        y: 2562
+        width: 1181
+        height: 1182
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 38, y: 38, z: 38, w: 38}
+      border: {x: 185, y: 197, z: 185, w: 205}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -456,10 +456,10 @@ TextureImporter:
       name: OrangeSquareBig
       rect:
         serializedVersion: 2
-        x: 600
-        y: 331
-        width: 97
-        height: 97
+        x: 2400
+        y: 1322
+        width: 389
+        height: 391
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,10 +477,10 @@ TextureImporter:
       name: WhiteSquareBig
       rect:
         serializedVersion: 2
-        x: 706
-        y: 331
-        width: 97
-        height: 97
+        x: 2825
+        y: 1322
+        width: 387
+        height: 391
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,10 +498,10 @@ TextureImporter:
       name: RedSquareMedium
       rect:
         serializedVersion: 2
-        x: 600
-        y: 255
-        width: 54
-        height: 54
+        x: 2400
+        y: 1020
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +519,10 @@ TextureImporter:
       name: WhiteSquareMedium
       rect:
         serializedVersion: 2
-        x: 656
-        y: 255
-        width: 54
-        height: 54
+        x: 2625
+        y: 1020
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,10 +540,10 @@ TextureImporter:
       name: YellowSquareMedium
       rect:
         serializedVersion: 2
-        x: 712
-        y: 255
-        width: 54
-        height: 54
+        x: 2848
+        y: 1019
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -561,10 +561,10 @@ TextureImporter:
       name: OrangeSquareMedium
       rect:
         serializedVersion: 2
-        x: 768
-        y: 255
-        width: 54
-        height: 54
+        x: 3072
+        y: 1020
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -582,10 +582,10 @@ TextureImporter:
       name: BlackSquareMedium
       rect:
         serializedVersion: 2
-        x: 824
-        y: 255
-        width: 54
-        height: 54
+        x: 3295
+        y: 1020
+        width: 216
+        height: 216
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,10 +603,10 @@ TextureImporter:
       name: OrangeSquareSmall
       rect:
         serializedVersion: 2
-        x: 600
-        y: 197
-        width: 43
-        height: 43
+        x: 2400
+        y: 787
+        width: 173
+        height: 173
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +624,10 @@ TextureImporter:
       name: WhiteSquareSmall
       rect:
         serializedVersion: 2
-        x: 645
-        y: 197
-        width: 43
-        height: 43
+        x: 2580
+        y: 788
+        width: 173
+        height: 173
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -645,10 +645,10 @@ TextureImporter:
       name: RedSquareSmall
       rect:
         serializedVersion: 2
-        x: 690
-        y: 197
-        width: 43
-        height: 43
+        x: 2759
+        y: 787
+        width: 173
+        height: 173
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,10 +666,10 @@ TextureImporter:
       name: YellowSquareSmall
       rect:
         serializedVersion: 2
-        x: 735
-        y: 197
-        width: 43
-        height: 43
+        x: 2939
+        y: 787
+        width: 173
+        height: 173
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -687,10 +687,10 @@ TextureImporter:
       name: BlackSquareSmall
       rect:
         serializedVersion: 2
-        x: 780
-        y: 197
-        width: 43
-        height: 43
+        x: 3119
+        y: 788
+        width: 173
+        height: 173
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -708,10 +708,10 @@ TextureImporter:
       name: HorizontalSmall
       rect:
         serializedVersion: 2
-        x: 837
-        y: 216
-        width: 31
-        height: 8
+        x: 3348
+        y: 864
+        width: 125
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -729,10 +729,10 @@ TextureImporter:
       name: VerticalSmall
       rect:
         serializedVersion: 2
-        x: 878
-        y: 204
-        width: 8
-        height: 31
+        x: 3512
+        y: 816
+        width: 32
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -750,10 +750,10 @@ TextureImporter:
       name: VerticalMedium
       rect:
         serializedVersion: 2
-        x: 895
-        y: 263
-        width: 12
-        height: 38
+        x: 3580
+        y: 1052
+        width: 48
+        height: 152
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -771,13 +771,13 @@ TextureImporter:
       name: ButtonRounded
       rect:
         serializedVersion: 2
-        x: 886
-        y: 502
-        width: 295
-        height: 69
+        x: 3542
+        y: 2014
+        width: 1181
+        height: 271
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 50, y: 30, z: 50, w: 30}
+      border: {x: 160, y: 90, z: 160, w: 90}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -792,10 +792,10 @@ TextureImporter:
       name: HorizontalMedium
       rect:
         serializedVersion: 2
-        x: 930
-        y: 272
-        width: 38
-        height: 12
+        x: 3720
+        y: 1088
+        width: 152
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -813,8 +813,8 @@ TextureImporter:
       name: CompleteIcon
       rect:
         serializedVersion: 2
-        x: 842
-        y: 370
+        x: 3384
+        y: 1498
         width: 20
         height: 20
       alignment: 0
@@ -834,12 +834,12 @@ TextureImporter:
       name: DeepBlackSquareSmall
       rect:
         serializedVersion: 2
-        x: 555
-        y: 197
-        width: 43
-        height: 43
+        x: 2220
+        y: 787
+        width: 173
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -890,6 +890,7 @@ TextureImporter:
       SliderBackground: 537799865
       SliderFill: 104889075
       SliderHandle: 1311575880
+      Ui Kit_0: -1774125949
       VerticalMedium: 522628033
       VerticalSmall: 1171422895
       WhiteSquareBig: 903054177
