@@ -8,14 +8,16 @@ public class MenuScreen : UIScreen
     public void OnPlayButtonPressed()
     {
         SoundManager.Instance.PlaySound("Click");
-        MenuManager.Instance.StartGame();
+        MenuManager.Instance.PlayGame();
     }
     public void OnPolicyButtonPressed()
     {
         SoundManager.Instance.PlaySound("Click");
+        MenuManager.Instance.OpenPolicy();
     }
     public void OnSettingButtonPressed()
     {
         SoundManager.Instance.PlaySound("Click");
+        MenuManager.Instance.OpenSettings();
     }
 }

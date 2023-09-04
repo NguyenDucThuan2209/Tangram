@@ -10,18 +10,21 @@ public class SettingScreen : UIScreen
 
     public void OnSoundButtonPressed()
     {
-        SoundManager.Instance.PlaySound("Click");
         m_soundSlider.value = (m_soundSlider.value == 0) ? 1 : 0;
+        
+        SoundManager.Instance.PlaySound("Click");
         SoundManager.Instance.SetSoundState(m_soundSlider.value == 0);
     }
     public void OnMusicButtonPressed()
     {
-        SoundManager.Instance.PlaySound("Click");
         m_musicSlider.value = (m_musicSlider.value == 0) ? 1 : 0;
-        SoundManager.Instance.SetSoundState(m_musicSlider.value == 0);
+        
+        SoundManager.Instance.PlaySound("Click");
+        SoundManager.Instance.SetMusicState(m_musicSlider.value == 0);
     }
     public void OnBackButtonPressed()
     {
         SoundManager.Instance.PlaySound("Click");
+        MenuManager.Instance.BackToHome();
     }
 }

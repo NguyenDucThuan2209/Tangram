@@ -7,7 +7,6 @@ public enum GameState
     None,
     Initializing,
     Playing,
-    Pausing,
     End
 }
 
@@ -17,12 +16,13 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance => m_instance;
 
     [SerializeField] GameState m_state;
-    [SerializeField] Vector2 m_vertical;
-    [SerializeField] Vector2 m_horizontal;
+    [SerializeField] LevelManager[] m_levelPrefab;
+
+    private int m_level;
+    private Square m_currentSquare;
+    private LevelManager m_currentLevel;
 
     public GameState State => m_state;
-    public Vector2 Vertical => m_vertical;
-    public Vector2 Horizontal => m_horizontal;
 
     private void Awake()
     {
@@ -36,29 +36,89 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-    }
-    private void ResetGameData()
-    {
+        if (m_state != GameState.Playing) return;
+
+        InputProcessHandling();
+        CheckLevelComplete();
     }
 
-    public void StartGame()
+    private void InputProcessHandling()
     {
-        Debug.LogWarning("Start Game");
-        m_state = GameState.Playing;
+        if (Input.GetMouseButtonDown(0))
+        {
+            var hitObject = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+            if (hitObject)
+            {
+                if (hitObject.transform.TryGetComponent(out Square square))
+                {
+                    if (square.ID != -1)
+                    {
+                        m_currentSquare = square;
+                        Debug.LogWarning(square.transform.name);
+                    }
+                }
+            }
+        }
+        else if (Input.GetMouseButton(0) && m_currentSquare != null)
+        {
+            var hitObject = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+            if (hitObject)
+            {
+                if (hitObject.transform.TryGetComponent(out Square square))
+                {
+                    if (square.Type == SquareType.Empty)
+                    {
+                        square.SetSquareType(m_currentSquare);
+                        m_currentLevel.TickSquare(m_currentSquare.ID, square.CoorX, square.CoorY);
+                    }
+                }
+            }
+        }
+        else if (Input.GetMouseButtonUp(0) && m_currentSquare != null)
+        {
+            m_currentSquare = null;
+        }
     }
-    public void PauseGame()
+    private void CheckLevelComplete()
     {
-        Debug.LogWarning("Pause Game");
-        m_state = GameState.Pausing;
+        if (m_currentLevel.IsLevelCompleted() && m_state == GameState.Playing)
+        {
+            Debug.LogWarning("GameManager: EndGame");
+            EndGame();
+        }
     }
-    public void ResumeGame()
+    private void ResetGameProperties()
     {
-        Debug.LogWarning("Resume Game");
+        ClearData();
+        m_currentLevel = Instantiate(m_levelPrefab[m_level - 1], transform).GetComponent<LevelManager>();
+    }
+
+    public void ClearData()
+    {
+        if (m_currentLevel != null)
+        {
+            Destroy(m_currentLevel.gameObject);
+        }
+    }
+    public void StartLevel(int level = -1)
+    {
         m_state = GameState.Playing;
+        m_level = (level > 0) ? level : m_level;
+
+        ResetGameProperties();
+        MenuManager.Instance.SetLevelInGame(m_level);
+    }
+    public void Replay()
+    {
+        ResetGameProperties();
     }
     public void EndGame()
     {
-        Debug.LogWarning("End Game");
+        m_level++;
         m_state = GameState.End;
+
+        if (m_level > 9) m_level = 1;
+
+        MenuManager.Instance.CompleteLevel(m_level);
     }
 }
